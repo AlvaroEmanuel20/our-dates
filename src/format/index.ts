@@ -1,14 +1,15 @@
-type formats = "MM-dd-yyyy" | "dd-MM-yyyy" | "MM/dd/yyyy" | "dd/MM/yyyy";
+type Formats = "MM-dd-yyyy" | "dd-MM-yyyy" | "MM/dd/yyyy" | "dd/MM/yyyy";
 
 /**
+ * @name format
+ * @description Convert a date in a formatted date.
  *
- * Convert a date in a formatted date
  * @param {Date} date a date for format
- * @param {formats} [formatString] a valid date format string
+ * @param {Formats} [formatString] a valid date format string
  * @returns {string} formatted date
  */
 
-export default function format(date: Date, formatString?: formats): string {
+export default function format(date: Date, formatString?: Formats): string {
     const day = addZero(date.getDate());
     const month = addZero(date.getMonth() + 1);
     const year = date.getFullYear();
