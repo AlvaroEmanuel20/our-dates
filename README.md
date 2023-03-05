@@ -20,7 +20,7 @@ npm install datelib-simple
 ## Usage
 
 ```javascript
-import { format } from "date-libary-simple";
+import { format } from "datelib-simple";
 
 format(new Date(2023, 2, 5), "dd/MM/yyyy"); // 05/03/2023
 ```
