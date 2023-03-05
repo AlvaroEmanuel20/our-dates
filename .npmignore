@@ -7,3 +7,14 @@ tests
 docs
 .idea
 scripts
+.editorconfig
+.eslintignore
+.eslintrc.json
+.prettierignore
+.prettierrc.json
+jest.config.js
+src
+dist/*/test.js
+dist/*/test.d.ts
+dist/*/*/test.js
+dist/*/*/test.d.ts
