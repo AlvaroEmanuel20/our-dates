@@ -1,0 +1,31 @@
+{
+    "name": "date-library",
+    "description": "A simple date utility library for Javascript",
+    "version": "1.0.0",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "author": {
+        "name": "Álvaro Emanuel",
+        "email": "contato@alvaroemanuel.tech"
+    },
+    "license": "MIT",
+    "scripts": {
+        "build": "tsc",
+        "test": "jest",
+        "lint": "eslint .",
+        "lint:fix": "eslint . --fix"
+    },
+    "devDependencies": {
+        "@types/jest": "^29.4.0",
+        "@types/node": "^18.14.6",
+        "@typescript-eslint/eslint-plugin": "^5.54.0",
+        "@typescript-eslint/parser": "^5.54.0",
+        "eslint": "^8.35.0",
+        "eslint-config-prettier": "^8.6.0",
+        "eslint-plugin-prettier": "^4.2.1",
+        "jest": "^29.4.3",
+        "ts-jest": "^29.0.5",
+        "ts-node": "^10.9.1",
+        "typescript": "^4.9.5"
+    }
+}
