@@ -1,5 +1,5 @@
 {
-    "name": "@alvaro/simple-date",
+    "name": "date-library-simple",
     "description": "A simple date utility library for Javascript",
     "version": "1.0.0",
     "main": "dist/index.js",
