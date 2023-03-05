@@ -1,7 +1,7 @@
 {
     "name": "date-library-simple",
     "description": "A simple date utility library for Javascript",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "repository": "https://github.com/AlvaroEmanuel20/date-library",
