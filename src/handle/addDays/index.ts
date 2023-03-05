@@ -13,7 +13,7 @@
  */
 
 export default function addDays(date: Date, qty: number): Date {
-    if (!qty) qty = 0;
+    if (!qty) return date;
 
     date.setDate(date.getDate() + qty);
     return date;

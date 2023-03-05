@@ -13,7 +13,7 @@
  */
 
 export default function addMonths(date: Date, qty: number): Date {
-    if (!qty) qty = 0;
+    if (!qty) return date;
 
     date.setMonth(date.getMonth() + qty);
     return date;
