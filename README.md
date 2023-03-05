@@ -26,5 +26,6 @@ format(new Date(2023, 2, 5), "dd/MM/yyyy"); // 05/03/2023
 ```
 
 ## Contact
-- Linkedin: [Meu Linkedin](https://linkedin/in/alvaroemanuel20)
+- Github: [My Github](https://github.com/alvaroemanuel20)
+- Linkedin: [My Linkedin](https://linkedin/in/alvaroemanuel20)
 - Instagram: [@alvaro1dias](https://instagram.com/alvaro1dias)
