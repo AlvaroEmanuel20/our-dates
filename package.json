@@ -1,5 +1,5 @@
 {
-    "name": "date-library-simple",
+    "name": "datelib-simple",
     "description": "A simple date utility library for Javascript",
     "version": "1.0.0",
     "main": "dist/index.js",
