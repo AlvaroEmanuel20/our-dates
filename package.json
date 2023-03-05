@@ -4,6 +4,19 @@
     "version": "1.0.0",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
+    "repository": "https://github.com/AlvaroEmanuel20/date-library",
+    "bugs": {
+        "url": "https://github.com/AlvaroEmanuel20/date-library/issues"
+    },
+    "keywords": [
+        "date",
+        "date-library",
+        "library",
+        "utilities",
+        "format date",
+        "date-fns",
+        "moment"
+    ],
     "author": {
         "name": "Álvaro Emanuel",
         "email": "contato@alvaroemanuel.tech"
