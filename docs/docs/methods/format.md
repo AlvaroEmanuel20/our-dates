@@ -4,40 +4,32 @@ sidebar_position: 1
 
 # Format
 
-Add **Markdown or React** files to `src/pages` to create a **standalone page**:
+Returns a formatted date string from any date.
 
-- `src/pages/index.js` → `localhost:3000/`
-- `src/pages/foo.md` → `localhost:3000/foo`
-- `src/pages/foo/bar.js` → `localhost:3000/foo/bar`
+## Usage
+```javascript
+import { format } from "datelib-simple";
 
-## Create your first React Page
+// Sintax:
+// format(date, formatString);
 
-Create a file at `src/pages/my-react-page.js`:
-
-```jsx title="src/pages/my-react-page.js"
-import React from 'react';
-import Layout from '@theme/Layout';
-
-export default function MyReactPage() {
-  return (
-    <Layout>
-      <h1>My React page</h1>
-      <p>This is a React page</p>
-    </Layout>
-  );
-}
+format(new Date(2023, 2, 9), "dd/MM/yyyy") // 09/03/2023
 ```
 
-A new page is now available at [http://localhost:3000/my-react-page](http://localhost:3000/my-react-page).
+## Format strings
 
-## Create your first Markdown Page
+The method accept fours differents format strings. List below:
+- dd/MM/yyyy
+- dd-MM-yyyy
+- MM/dd/yyyy
+- MM-dd-yyyy
 
-Create a file at `src/pages/my-markdown-page.md`:
+## Examples
+```javascript
+import { format } from "datelib-simple";
 
-```mdx title="src/pages/my-markdown-page.md"
-# My Markdown page
-
-This is a Markdown page
+format(new Date(2023, 2, 9), "dd/MM/yyyy") // 09/03/2023
+format(new Date(2023, 2, 9), "dd-MM-yyyy") // 09-03-2023
+format(new Date(2023, 2, 9), "MM-dd-yyyy") // 03-09-2023
 ```
 
-A new page is now available at [http://localhost:3000/my-markdown-page](http://localhost:3000/my-markdown-page).
