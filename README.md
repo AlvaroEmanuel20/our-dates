@@ -9,7 +9,7 @@ A date utility library for simple use cases, zero dependency and lightweight.
 
 `datelib-simple` was created for some use cases and solve problems with fast and easy. Working with dates in programming and in severals situations are boring and confusing. With this library this task is more easy. You can handle, format and converter dates. In addition to being able to use some utility methods.
 
-Read the documentation: [Documentation](https://alvaroemanuel.tech/datelib-simple/)
+Read the documentation: [Documentation](https://datelib-simple.vercel.app/)
 
 ## Installation
 `datelib-simple` can be installed with `yarn` or `npm`
@@ -32,7 +32,7 @@ format(new Date(2023, 2, 5), "dd/MM/yyyy"); // 05/03/2023
 ```
 ## Documentation
 
-Read the documentation: [Documentation](https://alvaroemanuel.tech/datelib-simple/)
+Read the documentation: [Documentation](https://datelib-simple.vercel.app/)
 ## Contact
 - Github: [My Github](https://github.com/alvaroemanuel20)
 - Linkedin: [My Linkedin](https://linkedin/in/alvaroemanuel20)
