@@ -8,12 +8,12 @@ Returns a formatted date string from any date.
 
 ## Usage
 ```javascript
-import { format } from "datelib-simple";
+import { format } from "our-dates";
 
 // Sintax:
 // format(date, formatString);
 
-format(new Date(2023, 2, 9), "dd/MM/yyyy") // 09/03/2023
+format(new Date(2023, 2, 9), "dd/MM/yyyy"); // 09/03/2023
 ```
 
 ## Format strings
@@ -26,10 +26,10 @@ The method accept fours differents format strings. List below:
 
 ## Examples
 ```javascript
-import { format } from "datelib-simple";
+import { format } from "our-dates";
 
-format(new Date(2023, 2, 9), "dd/MM/yyyy") // 09/03/2023
-format(new Date(2023, 2, 9), "dd-MM-yyyy") // 09-03-2023
-format(new Date(2023, 2, 9), "MM-dd-yyyy") // 03-09-2023
+format(new Date(2023, 2, 9), "dd/MM/yyyy"); // 09/03/2023
+format(new Date(2023, 2, 9), "dd-MM-yyyy"); // 09-03-2023
+format(new Date(2023, 2, 9), "MM-dd-yyyy"); // 03-09-2023
 ```
 

@@ -1,15 +1,17 @@
 {
-    "name": "datelib-simple",
+    "name": "our-dates",
     "description": "A simple date utility library for Javascript",
-    "version": "1.0.3",
+    "version": "1.0.0",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
-    "repository": "https://github.com/AlvaroEmanuel20/date-library",
+    "homepage": "https://ourdates.vercel.app/",
+    "repository": "https://github.com/AlvaroEmanuel20/our-dates",
     "bugs": {
-        "url": "https://github.com/AlvaroEmanuel20/date-library/issues"
+        "url": "https://github.com/AlvaroEmanuel20/our-dates/issues"
     },
     "keywords": [
         "date",
+        "our-dates",
         "date-library",
         "library",
         "utilities",

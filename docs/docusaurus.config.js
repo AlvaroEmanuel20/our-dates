@@ -6,7 +6,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: "Library Datelib Simple",
+    title: "Our Dates",
     tagline: "Working with dates with this library is more easy.",
     favicon: "img/calendar.svg",
 
@@ -18,8 +18,8 @@ const config = {
 
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
-    organizationName: "facebook", // Usually your GitHub org/user name.
-    projectName: "docusaurus", // Usually your repo name.
+    organizationName: "AlvaroEmanuel20", // Usually your GitHub org/user name.
+    projectName: "our-dates", // Usually your repo name.
 
     onBrokenLinks: "throw",
     onBrokenMarkdownLinks: "warn",
@@ -42,14 +42,14 @@ const config = {
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
                     editUrl:
-                        "https://github.com/AlvaroEmanuel20/date-library/tree/main/docs/",
+                        "https://github.com/AlvaroEmanuel20/our-dates/tree/main/docs/",
                 },
                 blog: {
                     showReadingTime: true,
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
                     editUrl:
-                        "https://github.com/AlvaroEmanuel20/date-library/tree/main/docs/",
+                        "https://github.com/AlvaroEmanuel20/our-dates/tree/main/docs/",
                 },
                 theme: {
                     customCss: require.resolve("./src/css/custom.css"),
@@ -62,11 +62,11 @@ const config = {
         /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
             // Replace with your project's social card
-            image: "img/docusaurus-social-card.jpg",
+            image: "img/calendar.svg",
             navbar: {
-                title: "Datelib Simple",
+                title: "Our Dates",
                 logo: {
-                    alt: "Logo Datelib Simple",
+                    alt: "Logo Our Dates",
                     src: "img/calendar.svg",
                 },
                 items: [
@@ -77,7 +77,7 @@ const config = {
                         label: "Tutorial",
                     },
                     {
-                        href: "https://github.com/AlvaroEmanuel20/date-library",
+                        href: "https://github.com/AlvaroEmanuel20/our-dates",
                         label: "GitHub",
                         position: "right",
                     },
@@ -117,12 +117,12 @@ const config = {
                         items: [
                             {
                                 label: "GitHub",
-                                href: "https://github.com/AlvaroEmanuel20/date-library",
+                                href: "https://github.com/AlvaroEmanuel20/our-dates",
                             },
                         ],
                     },
                 ],
-                copyright: `Copyright © ${new Date().getFullYear()} Datelib Simple. Built with Docusaurus.`,
+                copyright: `Copyright © ${new Date().getFullYear()} Our Dates. Built with Docusaurus.`,
             },
             prism: {
                 theme: lightCodeTheme,

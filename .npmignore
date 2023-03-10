@@ -1,11 +1,9 @@
-dist
 node_modules
 build
 coverage
 tests
 .github
 docs
-.idea
 scripts
 .editorconfig
 .eslintignore

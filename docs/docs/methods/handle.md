@@ -34,15 +34,15 @@ Each function listed above receive two arguments:
 See below how to use.
 
 ```javascript
-import { addDays } from "datelib-simple";
+import { addDays } from "our-dates";
 
-const date = new Date(2023, 2, 5) //2023-03-05T00:00:00.000Z
-addDays(date, 3) //2023-03-08T00:00:00.000Z
+const date = new Date(2023, 2, 5); //2023-03-05T00:00:00.000Z
+addDays(date, 3); //2023-03-08T00:00:00.000Z
 ```
 
 ## Examples
 ```javascript
-import { addDays, addHours, subYears } from "datelib-simple";
+import { addDays, addHours, subYears } from "our-dates";
 
 const date = new Date(2023, 2, 5); //2023-03-05T00:00:00.000Z
 addDays(date, 3); //2023-03-08T00:00:00.000Z

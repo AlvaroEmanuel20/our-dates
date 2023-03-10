@@ -18,7 +18,7 @@ Returns true if value passed is a valid date.
 
 Usage:
 ```javascript
-import { isDate } from "datelib-simple";
+import { isDate } from "our-dates";
 
 isDate(new Date()); //true
 isDate("2014-02-31"); //false
@@ -30,10 +30,10 @@ Returns true if two dates passed are equals.
 
 Usage:
 ```javascript
-import { isEqual } from "datelib-simple";
+import { isEqual } from "our-dates";
 
-isEqual(new Date(2023, 2, 20), new Date(2023, 2, 20)) //true
-isEqual(new Date(2023, 1, 20), new Date(2023, 2, 20)) //false
+isEqual(new Date(2023, 2, 20), new Date(2023, 2, 20)); //true
+isEqual(new Date(2023, 1, 20), new Date(2023, 2, 20)); //false
 ```
 
 ## monthLength
@@ -42,7 +42,7 @@ Get the last day (month length) of a month.
 
 Usage:
 ```javascript
-import { monthLength } from "datelib-simple";
+import { monthLength } from "our-dates";
 
 monthLength(1, 2023); //28
 monthLength(1, 2024); //29
