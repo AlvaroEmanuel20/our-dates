@@ -23,3 +23,12 @@ export { default as addSeconds } from "./handle/addSeconds";
 export { default as subSeconds } from "./handle/subSeconds";
 export { default as addMilliseconds } from "./handle/addMilliseconds";
 export { default as subMilliseconds } from "./handle/subHours";
+
+// CONVERSIONS
+export { default as daysToWeek } from "./conversions/daysToWeek";
+export { default as hoursToMinutes } from "./conversions/hoursToMinutes";
+export { default as hoursToSeconds } from "./conversions/hoursToSeconds";
+export { default as hoursToMilliseconds } from "./conversions/hoursToMilliseconds";
+export { default as minutesToHours } from "./conversions/minutesToHours";
+export { default as minutesToSeconds } from "./conversions/minutesToSeconds";
+export { default as minutesToMilliseconds } from "./conversions/minutesToMilliseconds";
