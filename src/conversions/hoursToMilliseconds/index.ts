@@ -10,5 +10,5 @@
  */
 
 export default function hoursToMilliseconds(hours: number): number {
-    return hours * 3600000;
+    return Math.floor(hours * 3600000);
 }

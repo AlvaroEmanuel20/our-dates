@@ -10,5 +10,5 @@
  */
 
 export default function hoursToSeconds(hours: number): number {
-    return hours * 3600;
+    return Math.floor(hours * 3600);
 }
