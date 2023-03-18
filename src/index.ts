@@ -32,3 +32,9 @@ export { default as hoursToMilliseconds } from "./conversions/hoursToMillisecond
 export { default as minutesToHours } from "./conversions/minutesToHours";
 export { default as minutesToSeconds } from "./conversions/minutesToSeconds";
 export { default as minutesToMilliseconds } from "./conversions/minutesToMilliseconds";
+export { default as secondsToHours } from "./conversions/secondsToHours";
+export { default as secondsToMinutes } from "./conversions/secondsToMinutes";
+export { default as secondsToMilliseconds } from "./conversions/secondsToMilliseconds";
+export { default as millisecondsToHours } from "./conversions/millisecondsToHours";
+export { default as millisecondsToMinutes } from "./conversions/millisecondsToMinutes";
+export { default as millisecondsToSeconds } from "./conversions/millisecondsToSeconds";
