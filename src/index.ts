@@ -5,6 +5,10 @@ export { default as format } from "./format";
 export { default as isDate } from "./utils/isDate";
 export { default as isEqual } from "./utils/isEqual";
 export { default as monthLength } from "./utils/monthLength";
+export { default as differenceInHours } from "./utils/differenceInHours";
+export { default as differenceInMinutes } from "./utils/differenceInMinutes";
+export { default as differenceInSeconds } from "./utils/differenceInSeconds";
+export { default as differenceInMilliseconds } from "./utils/differenceInMilliseconds";
 
 // HANDLE DATE
 export { default as addDays } from "./handle/addDays";
