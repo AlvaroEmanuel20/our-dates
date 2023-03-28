@@ -11,6 +11,10 @@ Utilitarys methods for you use when work with dates.
 - `isDate`
 - `isEqual`
 - `monthLength`
+- `differenceInHours`
+- `differenceInMinutes`
+- `differenceInSeconds`
+- `differenceInMilliseconds`
 
 ## isDate
 
@@ -48,3 +52,54 @@ monthLength(1, 2023); //28
 monthLength(1, 2024); //29
 ```
 
+## differenceInHours
+
+Returns the difference between two dates in hours.
+
+Usage:
+```javascript
+import { differenceInHours } from "our-dates";
+
+const laterDate = new Date(2023, 4, 2, 15, 40);
+const earlierDate = new Date(2023, 4, 2, 12, 40);
+differenceInHours(laterDate, earlierDate); //3
+```
+
+## differenceInMinutes
+
+Returns the difference between two dates in minutes.
+
+Usage:
+```javascript
+import { differenceInMinutes } from "our-dates";
+
+const laterDate = new Date(2023, 4, 2, 15, 40);
+const earlierDate = new Date(2023, 4, 2, 15, 20);
+differenceInMinutes(laterDate, earlierDate); //20
+```
+
+## differenceInSeconds
+
+Returns the difference between two dates in seconds.
+
+Usage:
+```javascript
+import { differenceInSeconds } from "our-dates";
+
+const laterDate = new Date(2023, 4, 2, 15, 40, 50);
+const earlierDate = new Date(2023, 4, 2, 15, 40, 30);
+differenceInSeconds(laterDate, earlierDate); //20
+```
+
+## differenceInMilliseconds
+
+Returns the difference between two dates in milliseconds.
+
+Usage:
+```javascript
+import { differenceInMilliseconds } from "our-dates";
+
+const laterDate = new Date(2023, 4, 2, 15, 40, 50, 500);
+const earlierDate = new Date(2023, 4, 2, 15, 40, 50, 200);
+differenceInMilliseconds(laterDate, earlierDate); //300
+```
