@@ -18,4 +18,8 @@ describe("format a date with differents formats", () => {
     test("format based in dd/MM/yyyy", () => {
         expect(format(date, "dd/MM/yyyy")).toBe("05/03/2023");
     });
+
+    test("format based in dd/MM/yyyy from ISO date", () => {
+        expect(format(new Date("2023-05-20"), "dd/MM/yyyy")).toBe("19/05/2023");
+    });
 });
