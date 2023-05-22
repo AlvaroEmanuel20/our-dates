@@ -1,4 +1,9 @@
-type Formats = "MM-dd-yyyy" | "dd-MM-yyyy" | "MM/dd/yyyy" | "dd/MM/yyyy";
+type Formats =
+    | "MM-dd-yyyy"
+    | "dd-MM-yyyy"
+    | "MM/dd/yyyy"
+    | "dd/MM/yyyy"
+    | "yyyy-MM-dd";
 
 /**
  * @name format
@@ -19,6 +24,9 @@ export default function format(date: Date, formatString?: Formats): string {
             return `${month}-${day}-${year}`;
         case "dd-MM-yyyy":
             return `${day}-${month}-${year}`;
+        case "yyyy-MM-dd":
+            //ISO 8601 format
+            return `${year}-${month}-${day}`;
         case "MM/dd/yyyy":
             return `${month}/${day}/${year}`;
         case "dd/MM/yyyy":

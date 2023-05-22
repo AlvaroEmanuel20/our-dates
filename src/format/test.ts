@@ -11,6 +11,10 @@ describe("format a date with differents formats", () => {
         expect(format(date, "dd-MM-yyyy")).toBe("05-03-2023");
     });
 
+    test("format based in yyyy-MM-dd ISO 8601", () => {
+        expect(format(date, "yyyy-MM-dd")).toBe("2023-03-05");
+    });
+
     test("format based in MM/dd/yyyy", () => {
         expect(format(date, "MM/dd/yyyy")).toBe("03/05/2023");
     });
