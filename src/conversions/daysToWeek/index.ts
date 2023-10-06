@@ -11,5 +11,5 @@
  */
 
 export default function daysToWeek(days: number): number {
-    return Math.floor(days / 7);
+  return Math.floor(days / 7);
 }

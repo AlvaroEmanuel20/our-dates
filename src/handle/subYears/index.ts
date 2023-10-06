@@ -13,8 +13,8 @@
  */
 
 export default function subYears(date: Date, qty: number): Date {
-    if (!qty) return date;
+  if (!qty) return date;
 
-    date.setFullYear(date.getFullYear() - qty);
-    return date;
+  date.setFullYear(date.getFullYear() - qty);
+  return date;
 }

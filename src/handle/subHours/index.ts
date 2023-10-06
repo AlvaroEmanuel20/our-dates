@@ -13,8 +13,8 @@
  */
 
 export default function subHours(date: Date, qty: number): Date {
-    if (!qty) return date;
+  if (!qty) return date;
 
-    date.setHours(date.getHours() - qty);
-    return date;
+  date.setHours(date.getHours() - qty);
+  return date;
 }

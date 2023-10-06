@@ -13,8 +13,8 @@
  */
 
 export default function subDays(date: Date, qty: number): Date {
-    if (!qty) return date;
+  if (!qty) return date;
 
-    date.setDate(date.getDate() - qty);
-    return date;
+  date.setDate(date.getDate() - qty);
+  return date;
 }

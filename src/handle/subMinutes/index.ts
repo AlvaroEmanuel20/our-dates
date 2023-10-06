@@ -13,8 +13,8 @@
  */
 
 export default function subMinutes(date: Date, qty: number): Date {
-    if (!qty) return date;
+  if (!qty) return date;
 
-    date.setMinutes(date.getMinutes() - qty);
-    return date;
+  date.setMinutes(date.getMinutes() - qty);
+  return date;
 }

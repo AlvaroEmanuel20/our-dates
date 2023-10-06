@@ -14,10 +14,10 @@
  */
 
 export default function monthLength(
-    month: number,
-    year: number
+  month: number,
+  year: number
 ): number | undefined {
-    if (!month || !year) return undefined;
-    const date = new Date(year, month + 1, 0);
-    return date.getDate();
+  if (!month || !year) return undefined;
+  const date = new Date(year, month + 1, 0);
+  return date.getDate();
 }

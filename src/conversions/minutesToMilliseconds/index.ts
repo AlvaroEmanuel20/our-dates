@@ -10,5 +10,5 @@
  */
 
 export default function minutesToMilliseconds(minutes: number): number {
-    return Math.floor(minutes * 60000);
+  return Math.floor(minutes * 60000);
 }

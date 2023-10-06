@@ -13,8 +13,8 @@
  */
 
 export default function subMonths(date: Date, qty: number): Date {
-    if (!qty) return date;
+  if (!qty) return date;
 
-    date.setMonth(date.getMonth() - qty);
-    return date;
+  date.setMonth(date.getMonth() - qty);
+  return date;
 }

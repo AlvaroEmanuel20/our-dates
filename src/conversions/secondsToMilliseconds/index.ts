@@ -10,5 +10,5 @@
  */
 
 export default function secondsToMilliseconds(seconds: number): number {
-    return Math.floor(seconds * 1000);
+  return Math.floor(seconds * 1000);
 }

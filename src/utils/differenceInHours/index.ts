@@ -1,4 +1,4 @@
-import millisecondsToHours from "../../conversions/millisecondsToHours";
+import millisecondsToHours from '../../conversions/millisecondsToHours';
 
 /**
  *
@@ -17,9 +17,9 @@ import millisecondsToHours from "../../conversions/millisecondsToHours";
  */
 
 export default function differenceInHours(
-    laterDate: Date,
-    earlierDate: Date
+  laterDate: Date,
+  earlierDate: Date
 ): number {
-    const diffTime = laterDate.getTime() - earlierDate.getTime();
-    return millisecondsToHours(diffTime);
+  const diffTime = laterDate.getTime() - earlierDate.getTime();
+  return millisecondsToHours(diffTime);
 }

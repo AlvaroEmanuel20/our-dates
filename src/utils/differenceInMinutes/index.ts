@@ -1,4 +1,4 @@
-import millisecondsToMinutes from "../../conversions/millisecondsToMinutes";
+import millisecondsToMinutes from '../../conversions/millisecondsToMinutes';
 
 /**
  *
@@ -17,9 +17,9 @@ import millisecondsToMinutes from "../../conversions/millisecondsToMinutes";
  */
 
 export default function differenceInMinutes(
-    laterDate: Date,
-    earlierDate: Date
+  laterDate: Date,
+  earlierDate: Date
 ): number {
-    const diffTime = laterDate.getTime() - earlierDate.getTime();
-    return millisecondsToMinutes(diffTime);
+  const diffTime = laterDate.getTime() - earlierDate.getTime();
+  return millisecondsToMinutes(diffTime);
 }
