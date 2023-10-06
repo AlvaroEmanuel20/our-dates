@@ -15,5 +15,5 @@
  */
 
 export default function isDate(value: unknown): boolean {
-    return value instanceof Date;
+  return value instanceof Date;
 }

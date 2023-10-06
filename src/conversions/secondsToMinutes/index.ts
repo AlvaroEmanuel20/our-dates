@@ -11,5 +11,5 @@
  */
 
 export default function secondsToMinutes(seconds: number): number {
-    return Math.floor(seconds / 60);
+  return Math.floor(seconds / 60);
 }

@@ -15,8 +15,8 @@
  */
 
 export default function differenceInMilliseconds(
-    laterDate: Date,
-    earlierDate: Date
+  laterDate: Date,
+  earlierDate: Date
 ): number {
-    return laterDate.getTime() - earlierDate.getTime();
+  return laterDate.getTime() - earlierDate.getTime();
 }

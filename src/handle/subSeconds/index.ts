@@ -13,8 +13,8 @@
  */
 
 export default function subSeconds(date: Date, qty: number): Date {
-    if (!qty) return date;
+  if (!qty) return date;
 
-    date.setSeconds(date.getSeconds() - qty);
-    return date;
+  date.setSeconds(date.getSeconds() - qty);
+  return date;
 }

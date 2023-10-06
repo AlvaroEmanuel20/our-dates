@@ -1,4 +1,4 @@
-import millisecondsToSeconds from "../../conversions/millisecondsToSeconds";
+import millisecondsToSeconds from '../../conversions/millisecondsToSeconds';
 
 /**
  *
@@ -17,9 +17,9 @@ import millisecondsToSeconds from "../../conversions/millisecondsToSeconds";
  */
 
 export default function differenceInSeconds(
-    laterDate: Date,
-    earlierDate: Date
+  laterDate: Date,
+  earlierDate: Date
 ): number {
-    const diffTime = laterDate.getTime() - earlierDate.getTime();
-    return millisecondsToSeconds(diffTime);
+  const diffTime = laterDate.getTime() - earlierDate.getTime();
+  return millisecondsToSeconds(diffTime);
 }

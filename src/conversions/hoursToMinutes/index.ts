@@ -10,5 +10,5 @@
  */
 
 export default function hoursToMinutes(hours: number): number {
-    return Math.floor(hours * 60);
+  return Math.floor(hours * 60);
 }

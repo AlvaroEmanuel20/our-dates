@@ -4,13 +4,9 @@ sidebar_position: 1
 
 # Welcome
 
-:::caution
-This library is only recommended for simple projects or simple cases. For complex projects is really not recommended.
-:::
-
 A date utility library for simple use cases, zero dependency and lightweight. `our-dates` was created for some use cases and solve problems with fast and easy.
 
-Working with dates in programming and in severals situations are boring and confusing. With this library this task is more easy. You can handle, format and converter dates. In addition to being able to use some utility methods.
+Working with dates in programming and in severals situations are boring and confusing. With this library this task is more easy. You can handle dates, calculate differences between dates, convert dates, and more. In addition to being able to use some utility methods.
 
 ## Getting Started
 
@@ -32,13 +28,17 @@ After you install `our-dates`, you can start using by importing the library.
 
 ```js
 // ES modules
-import { format } from "our-dates";
+import { differenceInHours } from 'our-dates';
 
-format(new Date(2023, 2, 7), "dd/MM/yyyy"); // 07/03/2023
+const laterDate = new Date(2023, 4, 2, 15, 40);
+const earlierDate = new Date(2023, 4, 2, 12, 40);
+differenceInHours(laterDate, earlierDate) //3 hours
 ```
 ```js
 // CommonJS
-const { format } = require("our-dates");
+const { differenceInHours } = require('our-dates');
 
-format(new Date(2023, 2, 7), "dd/MM/yyyy"); // 07/03/2023
+const laterDate = new Date(2023, 4, 2, 15, 40);
+const earlierDate = new Date(2023, 4, 2, 12, 40);
+differenceInHours(laterDate, earlierDate) //3 hours
 ```
